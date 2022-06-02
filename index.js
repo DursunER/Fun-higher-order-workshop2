@@ -96,7 +96,8 @@ hof.limit = function (bFun, x) {
     function innerFun (a,b) {
         return bFun(a,b)
     }
-    return innerFun
+    return innerFun;
+
 };
 
 hof.from = function () {};
